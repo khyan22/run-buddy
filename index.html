@@ -44,7 +44,7 @@
                 <label for="email">Enter email address:</label>
                 <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
                 <label for="phone">Enter a telephone number:</label>
-                <input type="number" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
                 <p>
                     Have you worked out with a trainer before?
                     <input type="radio" name="trainer=confirm" id="trainer-yes"/>
@@ -67,7 +67,10 @@
         
         <!--"what we do" section-->
         <section id="what-we-do" class="intro">
-            <h2 class="section-title primary-border">What We Do</h2>
+            <h2 class="section-title primary-border">
+                What We Do
+            </h2>
+
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, distinctio nemo quos dolores iure pariatur neque, corrupti et adipisci repudiandae repellat. Laboriosam soluta fugit vitae amet libero consectetur cum odit.
             </p>
@@ -75,7 +78,9 @@
 
         <!--"what you do" section-->
         <section id="what-you-do" class="steps">
-            <h2 class="section-title secondary-border">What You Do</h2>
+            <h2 class="section-title secondary-border">
+                What You Do
+            </h2>
 
             <div>
                 <img src="./assets/images/step-1.svg" alt="" />
@@ -91,24 +96,52 @@
 
             <div>
                 <img src="./assets/images/step-3.svg" alt="" />
-                <h3>Step 3: <span>Get Running.</span></h3>
+                <h3> Step 3: <span>Get Running.</span></h3>
                 <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
             </div>
 
             <div>
                 <img src="./assets/images/step-4.svg" alt="" />
                 <h3>Step 4: <span>See Results.</span></h3>
-                <p>Bi-weekly checkins with your trainer will keep you focused.</p>
+                <p>Bi-weekly checkins with your trainer will keep you focused. </p>
             </div>
         </section>
 
         <!--"meet the trainers" section-->
-        <section id="your-trainers">
-            <h2>Meet The Trainers</h2>
+        <section id="your-trainers" class="trainers">
+            <h2 class="section-title primary-border">
+                Meet The Trainers
+            </h2>
+            <article class="trainer text-left">
+                <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                <div class="trainer-bio">
+                    <h3>Arron Stephens</h3>
+                    <h4>Speed / Strength</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam distinctio, quisquam adipisci omnis praesentium assumenda eligendi ipsa ratione dignissimos nobis quia, sunt ex tempore repellat tempora placeat. Facere, inventore similique!</p>
+                </div>
+            </article>
+            
+            <article class="trainer text-right">
+                <div class="trainer-bio">
+                    <h3>Joanna Gil</h3>
+                    <h4>Endurance</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aliquid tenetur suscipit numquam rerum dolorum obcaecati veritatis totam tempore, ex doloribus hic amet nemo ab odio nulla ea earum cum.</p>
+                </div>
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />   
+            </article>
+
+            <article class="trainer text-left">
+                <img src="./assets/images/trainer-3.jpg" />
+                <div class="trainer-bio">
+                    <h3>Harry "The Headband" Smith</h3>
+                    <h4>Strength</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed quae ipsum ex. Fugit dolore saepe sequi adipisci nostrum quasi, ut quia est, rerum animi blanditiis officiis? Veritatis, explicabo autem?</p>
+                </div>
+            </article>
         </section>
 
         <!--"reach out" section-->
-        <section id="reach-out">
+        <section id="reach-out" class="reach">
             <h2>Reach Out</h2>
         </section>
 
