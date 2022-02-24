@@ -13,4 +13,4 @@ https://khyan22.github.io/run-buddy/
 # Contribution
 Made with ❤️ by Khyan Alvarez
 
-# Run Buddy Inc.
+### ©️2019 Run Buddy, Inc 
