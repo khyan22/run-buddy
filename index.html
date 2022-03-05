@@ -57,18 +57,23 @@
                     
                     <p>
                         Have you worked out with a trainer before?
-                        <input type="radio" name="trainer=confirm" id="trainer-yes"/>
-                        <label for="trainer-yes">yes</label>
+                        
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer=confirm" id="trainer-yes"/>
+                            <label for="trainer-yes">yes</label>
+                        </span>
 
-                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
-                        <label for="trainer-no">no</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                            <label for="trainer-no">no</label>
+                        </span>
                     </p>
 
                     <p>
-                        <label for="checkbox">
-                        I acknowledge that I am at least 18 years of age.
-                        </label>
-                        <input type="checkbox" name="age-confirm" id="checkbox"/>
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="age-confirm" id="checkbox"/>
+                            <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                        </span>
                     </p>
 
                     <button  type="submit">
